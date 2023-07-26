@@ -6,7 +6,12 @@ interactive telegram calculator bot
 
 INSTALLATION:
 *copy  the source code
+
+
 *pip install telebot
+
+
+
 *execute the code once after the package installation
 
 USAGE
