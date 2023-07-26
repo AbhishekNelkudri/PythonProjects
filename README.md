@@ -11,6 +11,9 @@ INSTALLATION:
 *pip install telebot
 
 
+*replace the token with your telegram bot key
+
+
 
 *execute the code once after the package installation
 
