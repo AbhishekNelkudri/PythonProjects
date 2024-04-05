@@ -1,0 +1,222 @@
+.head {
+  height: 100vh;
+  width: 50%;
+  background-image: linear-gradient(to right, rgb(230, 230, 164), pink);
+}
+
+.ab img {
+  position: absolute;
+  height: 25px;
+  width: 20px;
+}
+img {
+  width: 50%;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-sizing: border-box;
+}
+
+.tyson ul {
+  background-color: rgb(230, 57, 86);
+  color: #fffefe;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  padding-left: 200px;
+  position: relative;
+}
+
+.tyson ul li {
+  width: 136px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.tyson ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.tyson textarea {
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  text-wrap: wrap;
+  justify-content: unset;
+  align-items: left;
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  padding-left: 86px;
+}
+
+.click-me-button {
+  padding: 100 200;
+  padding-right: 100px;
+
+  font-size: 20px;
+
+  background-color: rgb(230, 57, 86);
+  color: #fff;
+  margin-top: 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.click-me-button:hover {
+  background-color: #0056b3;
+}
+.ais {
+  padding-top: 40%;
+  padding-left: 90px;
+  text-align: center;
+  width: 90%;
+}
+body {
+  background-image: linear-gradient(to right, rgb(230, 230, 164), pink);
+}
+
+.container {
+  display: flex;
+  height: 0h;
+}
+
+.row {
+  display: flex;
+}
+
+.row img {
+  margin: 3px; /* Add spacing between images */
+}
+
+.column {
+  width: 22%; /* Set width for the column */
+  margin-left: 10px; /* Add spacing between column and row */
+}
+
+.custom-button {
+  width: 400px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: left;
+  background-color: rgb(225, 117, 135);
+  color: rgb(12, 5, 5);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.custom-button:hover {
+  background-color: #e06363;
+}
+.button {
+  padding-left: 900px;
+  padding-top: 330px;
+  position: absolute;
+}
+.abh img {
+  width: 40px;
+  height: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .head {
+    height: 175vh;
+    width: 200%;
+    background-image: linear-gradient(to right, rgb(230, 230, 164), pink);
+  }
+  .tyson ul {
+    background-color: rgb(230, 57, 86);
+    color: #fffefe;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    padding-left: 200px;
+    position: relative;
+  }
+
+  .tyson ul li {
+    width: 90px;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+  }
+  .custom-button {
+    width: 400px;
+    display: inline-block;
+    padding: 5px 70px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(225, 117, 135);
+    color: rgb(12, 5, 5);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .head {
+    height: 175vh;
+    width: 200%;
+    background-image: linear-gradient(to right, rgb(230, 230, 164), pink);
+  }
+  .tyson ul {
+    background-color: rgb(230, 57, 86);
+    color: #fffefe;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    padding-left: 200px;
+    position: relative;
+  }
+
+  .tyson ul li {
+    width: 90px;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+  }
+}
+@media screen and (max-width< 400px) {
+  .head {
+    height: 175vh;
+    width: 200%;
+    background-image: linear-gradient(to right, rgb(230, 230, 164), pink);
+  }
+  .tyson ul {
+    background-color: rgb(230, 57, 86);
+    color: #fffefe;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    width: 150%;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+  }
+
+  .tyson ul li {
+    width: 50px;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+  }
+}
